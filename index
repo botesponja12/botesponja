@@ -1,0 +1,96 @@
+http://127.0.0.1:5500/INDEX.HTML
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tienda de Belleza</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #fff0f5;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #d81b60;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .producto {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            margin: 20px;
+            padding: 15px;
+            width: 250px;
+            text-align: center;
+            float: left;
+        }
+        .producto img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .contenedor {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        button {
+            background-color: #d81b60;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: #ad1457;
+        }
+        footer {
+            clear: both;
+            background-color: #f8bbd0;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Tienda de Belleza</h1>
+    <p>Encuentra tus productos favoritos para cuidar tu piel y verte radiante</p>
+</header>
+
+<div class="contenedor">
+    <div class="producto">
+        <img src="https://via.placeholder.com/250x200?text=Crema+Facial" alt="Crema Facial">
+        <h3>Crema Hidratante</h3>
+        <p>$15.99</p>
+        <button>Comprar</button>
+    </div>
+    <div class="producto">
+        <img src="https://via.placeholder.com/250x200?text=Labial+Mate" alt="Labial Mate">
+        <h3>Labial Mate</h3>
+        <p>$9.99</p>
+        <button>Comprar</button>
+    </div>
+    <div class="producto">
+        <img src="https://via.placeholder.com/250x200?text=Serum+Vitamina+C" alt="Serum Vitamina C">
+        <h3>Serum Vitamina C</h3>
+        <p>$19.99</p>
+        <button>Comprar</button>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 Tienda de Belleza - Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
